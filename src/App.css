@@ -15,11 +15,12 @@
 } */
 
 
+.movie-cover{
+margin:auto auto;
+}
 
 
-
-
-.cover {
+.container{
   text-align: center;
   width:100%;
   margin:auto auto;
@@ -27,6 +28,16 @@
 
 
 img{
-  width:100%;
+  width:50%;
 
+}
+
+.flex-items{
+  display:flex;
+}
+
+
+.movies{
+  flex:1;
+  text-align:center;
 }
