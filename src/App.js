@@ -9,6 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <h1>Welcome to Kodflix</h1>
+          <h2>Home of the big screen</h2>
         </p>
         <a
           className="App-link"
