@@ -1,25 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import darkCover from './dark.jpg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <h1>Welcome to Kodflix</h1>
-          <h2>Home of the big screen</h2>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {/* Learn React */}
-        </a>
-      </header>
+    <div className="cover">
+        <img src={darkCover}  alt="dark cover"/>
     </div>
   );
 }
