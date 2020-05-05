@@ -15,7 +15,8 @@ function App() {
       <div className="row">
         <div className="movies">
           <img src={moonlight} alt="moonlight cover" />
-          <h2>Moonlight</h2>
+          <h2>Moonlighting</h2>
+          
         </div>
 
         <div className="movies">
