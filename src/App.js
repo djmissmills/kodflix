@@ -15,35 +15,47 @@ function App() {
       <div className="row">
         <div className="movies">
           <img src={moonlight} alt="moonlight cover" />
-          <h2>Moonlighting</h2>
-          
+          <div class="overlay">
+            <h2>Moonlighting</h2>
+          </div>
         </div>
 
         <div className="movies">
           <img src={southern} alt="southern cover" />
-          <h2>The Southern Rail experience</h2>
+          <div class="overlay">
+            <h2>The Southern Rail experience</h2>
+          </div>
         </div>
 
         <div className="movies">
           <img src={much} alt="much cover" />
-          <h2>Much Ado About Nothing</h2>
+          <div class="overlay">
+            <h2>Much Ado About Nothing</h2>
+          </div>
         </div>
       </div>
 
       <div className="row">
         <div className="movies">
           <img src={joker} alt="joker cover" />
-          <h2>Joker</h2>
+          <div class="overlay">
+
+            <h2>Joker</h2>
+          </div>
         </div>
 
         <div className="movies">
           <img src={inherent} alt="inherent cover" />
-          <h2>Inherent Vice</h2>
+          <div class="overlay">
+            <h2>Inherent Vice</h2>
+          </div>
         </div>
 
         <div className="movies">
           <img src={underwater} alt="underwater cover" />
-          <h2>Underwater</h2></div>
+          <div class="overlay">
+            <h2>Underwater</h2></div>
+        </div>
       </div>
 
     </div>
