@@ -1,4 +1,5 @@
 import React from 'react';
+import MovieItem from './MovieItem';
 import moonlight from './images/moonlight.jpg';
 import southern from './images/rail.jpg';
 import much from './images/much.jpg';
@@ -10,57 +11,27 @@ import './App.css';
 function App() {
   return (
 
-// app
+    // app
     <div className="container">
-
-
-
       <div className="row">
-        <div className="movies">
-          <img src={moonlight} alt="moonlight cover" />
-          <div class="overlay">
-            <h2>Moonlighting</h2>
-          </div>
-        </div>
-
-        <div className="movies">
-          <img src={southern} alt="southern cover" />
-          <div class="overlay">
-            <h2>The experience</h2>
-          </div>
-        </div>
-
-        <div className="movies">
-          <img src={much} alt="much cover" />
-          <div class="overlay">
-            <h2>Much Ado</h2>
-          </div>
-        </div>
+        <MovieItem name="moonlight" logo={moonlight}/>
+        <MovieItem name="The Experience" logo={southern}/>
+        <MovieItem name="Much A Doo" logo={much}/>
       </div>
 
       <div className="row">
-        <div className="movies">
-          <img src={joker} alt="joker cover" />
-          <div class="overlay">
-            <h2>Joker</h2>
-          </div>
-        </div>
-
-        <div className="movies">
-          <img src={inherent} alt="inherent cover" />
-          <div class="overlay">
-            <h2>Inherent Vice</h2>
-          </div>
-        </div>
-
-        <div className="movies">
-          <img src={underwater} alt="underwater cover" />
-          <div class="overlay">
-            <h2>Underwater</h2></div>
-        </div>
+        <MovieItem name="Joker" logo={joker}/>
+        <MovieItem name="Inherent" logo={inherent}/>
+        <MovieItem name="Underwater" logo={underwater}/>
       </div>
     </div>
   );
 }
+
+
+
+
+
+
 
 export default App;
