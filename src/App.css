@@ -51,18 +51,27 @@ h2{
 
 img{
   width:80%;
+  vertical-align:bottom;
 
 }
 
-.row{
+
+/* container */
+.row{ 
   display:flex;
+  /* border:1px solid red; */
+  
+  
 }
 
-
-.movies{
+/* item */
+.movies{ 
   flex:1;
-  text-align:center;
   position:relative;
+margin-bottom:10px;
+  overflow:hidden;
+  /* border:1px solid green; */
+
 }
 
 @media only screen and (max-width: 600px){
@@ -74,15 +83,22 @@ img{
 
 
 .overlay{
-  display:none;
+  transition: bottom ease 1s;
   position:absolute;
-  bottom:0;
-  width:100%;
-  background-color:white;
-  opacity: .8;
+  background-color:pink;
+  opacity: 1;
+  left:0;
+  width:80%;
+  opacity: 0.6;
+  transition: bottom ease 1s;
+  bottom: -100px; 
+    /* border:1px solid black; */
+  margin:0 10% 0 10%;
+
 }
 
 .movies:hover .overlay{
-  display:block;
+ opacity: .9;
+ bottom:0px;
   
 }

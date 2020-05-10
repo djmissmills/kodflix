@@ -10,8 +10,11 @@ import './App.css';
 function App() {
   return (
 
-
+// app
     <div className="container">
+
+
+
       <div className="row">
         <div className="movies">
           <img src={moonlight} alt="moonlight cover" />
@@ -23,14 +26,14 @@ function App() {
         <div className="movies">
           <img src={southern} alt="southern cover" />
           <div class="overlay">
-            <h2>The Southern Rail experience</h2>
+            <h2>The experience</h2>
           </div>
         </div>
 
         <div className="movies">
           <img src={much} alt="much cover" />
           <div class="overlay">
-            <h2>Much Ado About Nothing</h2>
+            <h2>Much Ado</h2>
           </div>
         </div>
       </div>
@@ -39,7 +42,6 @@ function App() {
         <div className="movies">
           <img src={joker} alt="joker cover" />
           <div class="overlay">
-
             <h2>Joker</h2>
           </div>
         </div>
@@ -57,7 +59,6 @@ function App() {
             <h2>Underwater</h2></div>
         </div>
       </div>
-
     </div>
   );
 }
