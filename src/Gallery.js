@@ -14,14 +14,14 @@ export default function Gallery(){
     return(
       <div>
         <div className="row">
-          <MovieItem name="moonlight" logo={moonlight}/>
-          <MovieItem name="The Experience" logo={southern}/>
-          <MovieItem name="Much A Doo" logo={much}/>
+          <MovieItem id='moonlight'name="moonlight" logo={moonlight}/>
+          <MovieItem id='experience'name="The Experience" logo={southern}/>
+          <MovieItem id='much'name="Much A Doo" logo={much}/>
         </div>
         <div className="row">
-          <MovieItem name="Joker" logo={joker}/>
-          <MovieItem name="Inherent" logo={inherent}/>
-          <MovieItem name="Underwater" logo={underwater}/>
+          <MovieItem id='joker'name="Joker" logo={joker}/>
+          <MovieItem id='inherent'name="Inherent" logo={inherent}/>
+          <MovieItem id='underwater'name="Underwater" logo={underwater}/>
         </div>
       </div>
     );
