@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import getGallery from './get-gallery';
 
 export default class Details extends Component {
 
@@ -8,23 +9,26 @@ export default class Details extends Component {
   constructor() {
     super();
     this.state = {
-      welcomeMessage: 'welcome to my details page'
+      gallery: {}
     };
   }
 
 
   componentDidMount() {
-    setTimeout(() => {
+    let galleryId = this.props.match.params.galleryId;
+    let gallery = getGallery().find(function(Gallery) {
+        return gallery.id === galleryId;
+    });
       this.setState({
-        welcomeMessage: 'Coming soon'
+       gallery: gallery
       });
-    }, 3000);
+   
   }
 
   render() {
     return (
       <div>
-        <h1>{this.state.welcomeMessage}</h1>
+        <h1>{this.state.gallery.name}</h1>
         <Link to='/'> Back to home</Link>
       </div>
     );
