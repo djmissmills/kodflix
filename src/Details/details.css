@@ -1,0 +1,25 @@
+.description{
+    width: 60%;
+    margin:auto auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+}
+
+
+.details{
+    width: 100%;
+    text-align:center;
+}
+
+.imagedetails{
+
+    width: 60%;
+    margin:auto auto;
+}
+
+.home{
+    width: 100%;
+    margin-top: 5px;
+    font-size:1.5em;
+}
+
