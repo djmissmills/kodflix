@@ -1,6 +1,7 @@
 module.exports = function getShows() {
-    return [
-        {name: 'moonlight',
+
+    return  [ {
+        name: 'moonlight',
         id:'moon',
         synopsis:'Moonlight is a 2016 American coming-of-age drama film written and directed by Barry Jenkins, based on Tarell Alvin McCraney\'s unpublished semi-autobiographical play In Moonlight Black Boys Look Blue.'},
 
@@ -22,7 +23,13 @@ module.exports = function getShows() {
     
         {name: 'Underwater',
         id: 'underwater',
-        synopsis:'Underwater is a 2020 American science fiction horror film[4] directed by William Eubank and written by Brian Duffield and Adam Cozad. The film is produced by Chernin Entertainment and stars Kristen Stewart, Vincent Cassel, Jessica Henwick, John Gallagher Jr., Mamoudou Athie, and T.J. Miller.[5] It follows a group of scientists at the bottom of the ocean who encounter a group of creatures after an earthquake destroys their laboratory. The film is inspired by the Cthulhu Mythos as it includes the appearance of Cthulhu, and as such is a loose adaptation of The Call of Cthulhu.'}
-    
+        synopsis:'Underwater is a 2020 American science fiction horror film[4] directed by William Eubank and written by Brian Duffield and Adam Cozad. The film is produced by Chernin Entertainment and stars Kristen Stewart, Vincent Cassel, Jessica Henwick, John Gallagher Jr., Mamoudou Athie, and T.J. Miller.[5] It follows a group of scientists at the bottom of the ocean who encounter a group of creatures after an earthquake destroys their laboratory. The film is inspired by the Cthulhu Mythos as it includes the appearance of Cthulhu, and as such is a loose adaptation of The Call of Cthulhu.'},
     ];
-};
+};   
+
+
+
+
+
+
+

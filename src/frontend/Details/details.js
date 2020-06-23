@@ -3,7 +3,7 @@ import { Link, Redirect } from 'react-router-dom';
 import getGallery from '../get-gallery';
 import './details.css';
 
-export default class Details extends Component {
+export default class Details extends React.Component {
 
 
 

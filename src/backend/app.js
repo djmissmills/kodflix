@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const getShows = require('./shows');
 
-app.get('/', (req, res) => res.send('Hello'));
+// app.get('/', (req, res) => res.send('Hello'));
 
 app.get('/rest/shows', (req, res) => res.send(getShows()));
 
