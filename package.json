@@ -15,10 +15,12 @@
     "serve": "^11.3.1"
   },
   "scripts": {
-    "start": "npm-run-all -s build _start-backend",
-    "start-dev": "npm-run-all -p start-frontend start-backend",
+    "start": "npm-run-all -p start-serve-heroku start-backend",
+    "start-serve-heroku": "serve -s build",
     "start-frontend": "react-scripts start",
-    "start-backend": "nodemon src/backend/app.js",
+    "start-backend": "node src/src_backend/App.js",
+    "start-backend-local": "nodemon src/src_backend/App.js",
+    "start-dev": "npm-run-all -p start-frontend start-backend",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
